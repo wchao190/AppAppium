@@ -49,12 +49,12 @@ class Login(ParameterizedTestCase):
 
     def test_1(self):
 
-        self._testMethodName = "i营销线下订单新增"
+        self._testMethodName = "xxx线下订单新增"
 
         self.logout.exit_iyx()
         time.sleep(5)
 
-        self.create_order.create_offline_order("15210361048", "刘支援", "荣威eRX5","PHEV国潮荣麟豪华版","珠光白","浅色","不参加增换购",1000,"全款购车")
+        self.create_order.create_offline_order("xxx", "xxx", "xxx","xxx","xxx","xxx","xxx",1000,"xxx")
         self.driver.save_screenshot( os.path.join(os.path.dirname(os.getcwd()),"report", self._testMethodName + ".png") )
 
         time.sleep(10)
