@@ -1,0 +1,5 @@
+appium_cmd_0:
+  bp: 4900
+  device: 127.0.0.1:62001
+  model: OPPO_R11_Plus
+  port: 4701
