@@ -23,7 +23,7 @@ class Run:
         report_path = os.path.join(os.path.dirname(os.getcwd()), "report",AppiumCmd().get_value("appium_cmd_" + str(i), "model") + ".html")
         fp = open(report_path, "wb")
 
-        runner = HTMLTestRunner_cn.HTMLTestRunner(stream=fp, title="i营销APP测试报告", description="自动化测试")
+        runner = HTMLTestRunner_cn.HTMLTestRunner(stream=fp, title="xxxAPP测试报告", description="自动化测试")
         runner.run(suite)
 
     def count_cmd(self):
