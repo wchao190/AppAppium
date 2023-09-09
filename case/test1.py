@@ -31,9 +31,9 @@ class Login(ParameterizedTestCase):
 
         login_ini = os.path.join(os.path.dirname(os.getcwd()), "data\login.ini")
         cls.login = LoginBusiness(cls.driver, login_ini)
-        cls.login.login("SQ3776ZTXSGW", "123456")
+        cls.login.login("xxx", "xxx")
 
-        # self.login.login("liuke11","123456")
+        # self.login.login("xxx","xxx")
 
         logout_ini = os.path.join(os.path.dirname(os.getcwd()), "data\logout.ini")
         cls.logout = LogoutBusiness(cls.driver, logout_ini)
