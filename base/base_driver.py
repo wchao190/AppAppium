@@ -15,8 +15,8 @@ class BaseDriver:
             "platformVersion": "7.1.2",
             "deviceName": device,
             "automationName": "UiAutomator2",
-            "appPackage": "com.saicmotor.joywok.uat",
-            "appActivity": "com.dogesoft.joywok.SplashActivity",
+            "appPackage": "",
+            "appActivity": "",
             "newCommandTimeout":"120"
         }
 
